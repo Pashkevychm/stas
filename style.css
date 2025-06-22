@@ -36,7 +36,16 @@ section {
     border: 2px dashed #d0d8f0;
 }
 
+h2 {
+    color: white;
+}
+
 section img {
     width: 50%;
-    border-radius: 10px;
+}
+
+footer {
+    background-color: #1a2035;
+    text-align: center;
+    padding: 20px;
 }
