@@ -1,36 +1,42 @@
 body {
-    font-family: sans-serif;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: #d0d8f0;
+}
+
+header {
+    background-color: #1a2035;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #00aeff;
 }
 
 h1 {
+    color: #00aeff;
+}
+
+nav {
+    margin: 25px 0px 10px 0px;
+}
+
+nav a {
+    text-decoration: none;
+    border: 1px solid #00aeff;
+    border-radius: 2px;
+    color: #00aeff;
+    padding: 10px 15px;
+    margin: 0 10px;
+}
+
+section {
+    margin: 10%;
+    padding: 10px;
     text-align: center;
-    font-size: 60px;
+    border: 2px dashed #d0d8f0;
 }
 
-h2{
-    font-size: 40px;
-    background-color: peru;
-}
-
-a {
-    color: black;
-    font-size: 20px;
-}
-
-p, img {
-    border: 3px solid peru;
-}
-
-p, table {
-    font-size: 20px;
-}
-
-table{
-    background-color: lightyellow;
-    text-align: center;
-    border-collapse: collapse;
-}
-
-td{
-    border: 1px solid brown;
+section img {
+    width: 50%;
+    border-radius: 10px;
 }
